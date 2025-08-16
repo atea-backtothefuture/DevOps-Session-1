@@ -5,7 +5,7 @@ LOG_DIR="/logs"
 # Create /logs directory if it doesn't exist
 # Check if directory exists
 if [ ! -d "$LOG_DIR" ]; then
-  mkdir -p /logs
+  mkdir logs
 fi
 
 # Generate 1000 lines of dummy logs
